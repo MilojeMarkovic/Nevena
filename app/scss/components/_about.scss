@@ -1,0 +1,17 @@
+.about_section {
+  height: 100vh;
+
+  &__profile_picture {
+    background-image: url("../assets/images/profile.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 550px;
+    width: 100%;
+  }
+
+  &__about_me {
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0px 1px 10px 1px #888888;
+  }
+}

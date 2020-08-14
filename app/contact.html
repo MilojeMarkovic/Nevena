@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/app.css">
+    
+    <title>Promolajn</title>
+  </head>
+  <body>
+
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Navbar <span class="sr-only">(current)</span></a>
+            </li>
+          </ul>
+
+          <ul class="navbar-nav my-2 my-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Pocetna</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">O nama</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="education.html">Edukacija</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Kontakt</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="container">
+        <section class="mb-4">
+          <h2 class="h1-responsive font-weight-bold text-center my-4">Kontaktirajte nas</h2>
+          <p class="text-center w-responsive mx-auto mb-5">Imate bilo kakvih pitanja? Ne ustrucavajte se direktno nas kontaktirati. Nas tim ce vam se obratiti za nekoliko sati kako bismo vam pomogli.</p>
+
+          <div class="row">
+              <div class="col-md-9 mb-md-0 mb-5">
+                  <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+                      <div class="row">
+                          <div class="col-md-6">
+                              <div class="md-form mb-0">
+                                  <input type="text" id="name" name="name" class="form-control">
+                                  <label for="name" class="">Vase ime</label>
+                              </div>
+                          </div>
+                          <div class="col-md-6">
+                              <div class="md-form mb-0">
+                                  <input type="text" id="email" name="email" class="form-control">
+                                  <label for="email" class="">Vasa email adresa</label>
+                              </div>
+                          </div>
+                      </div>
+                      <!-- <div class="row">
+                          <div class="col-md-12">
+                              <div class="md-form mb-0">
+                                  <input type="text" id="subject" name="subject" class="form-control">
+                                  <label for="subject" class="">Subject</label>
+                              </div>
+                          </div>
+                      </div> -->
+                      <div class="row">
+                          <div class="col-md-12">
+                            <div class="md-form">
+                              <textarea type="text" id="message" name="message" rows="5" class="form-control md-textarea"></textarea>
+                              <label for="message">Vasa poruka</label>
+                            </div>
+                          </div>
+                      </div>
+                  </form>
+
+                  <div class="text-center text-md-left">
+                      <a class="btn btn-primary">Posalji</a>
+                  </div>
+                  <div class="status"></div>
+              </div>
+              <div class="col-md-3 text-center">
+                  <ul class="list-unstyled mb-0">
+                      <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                          <p>Promolajn, Slavka Babica 25/a, Novi Becej</p>
+                      </li>
+
+                      <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                          <p>062252702</p>
+                      </li>
+
+                      <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                          <p>contact@promoline.com</p>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+        </section>
+      </div>
+    </header>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+    <script src="main.js"></script>
+  </body>
+</html>

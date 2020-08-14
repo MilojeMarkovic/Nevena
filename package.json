@@ -1,0 +1,26 @@
+{
+  "name": "nevena",
+  "version": "1.0.0",
+  "description": "website for online marketing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass app/scss/app.scss  app/css/app.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MilojeMarkovic/Nevena.git"
+  },
+  "author": "Miloje",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MilojeMarkovic/Nevena/issues"
+  },
+  "homepage": "https://github.com/MilojeMarkovic/Nevena#readme",
+  "dependencies": {
+    "boostrap": "^2.0.0",
+    "node-sass": "^4.14.1",
+    "sass": "^1.26.10",
+    "scss": "^0.2.4"
+  }
+}
