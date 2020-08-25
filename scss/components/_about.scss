@@ -2,7 +2,7 @@
   height: 100vh;
 
   &__profile_picture {
-    // background-image: url("../assets/images/profile.jpg");
+    background-image: url("../assets/images/profile.jpg");
     background-position: center;
     background-size: cover;
     height: 550px;
@@ -10,9 +10,10 @@
   }
 
   &__about_me {
-    border-radius: 5px;
-    padding: 20px;
-    box-shadow: 0px 1px 10px 1px #888888;
+
+    h3 {
+      margin-bottom: 30px;
+    }
   }
 }
 
@@ -20,8 +21,9 @@
   margin: 100px 0;
 
   .cards {
-    box-shadow: 0 0 5px 0 #333;
-    // padding: 10px;
+    border: 1px solid #212529;
+    background-color: #212529;
+    color: #f3bb39;
     text-align: left;
     height: 350px;
     border-radius: 10px;
@@ -46,6 +48,24 @@
     &__card_image_3 {
       background-image: url("../assets/about_us/small-3.jpeg");
     }
+    &__card_image_4 {
+      background-image: url("../assets/about_us/small-4.jpg");
+    }
+    &__card_image_5 {
+      background-image: url("../assets/about_us/small-5.png");
+    }
+    &__card_image_6 {
+      background-image: url("../assets/about_us/small-6.jpg");
+    }
+    &__card_image_7 {
+      background-image: url("../assets/about_us/small-7.jpg");
+    }
+    &__card_image_8 {
+      background-image: url("../assets/about_us/small-7.jpg");
+    }
+    &__card_image_9 {
+      background-image: url("../assets/about_us/small-7.jpg");
+    }
 
     p {
       padding: 10px;
@@ -55,4 +75,8 @@
   .cards:hover {
     transform: scale(1.1);
   }
+}
+
+h2 {
+  font-size: 48px;
 }

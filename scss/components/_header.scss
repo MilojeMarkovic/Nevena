@@ -1,3 +1,14 @@
+.custom_navbar {
+
+  padding: .5rem 3rem !important;
+  height: 70px;
+  
+  .nav-link {
+    color: #f3bb39 !important;
+    font-size: 18px;
+  }
+}
+
 .header_background {
   background-image: url("../assets/images/2.jpg");
   background-position: center;
