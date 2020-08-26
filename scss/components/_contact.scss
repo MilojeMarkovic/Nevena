@@ -1,0 +1,60 @@
+.contact_box {
+  padding: 30px 20px;
+  background-color: #212529;
+  color: #f3bb39;
+
+  .direct_contact {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+
+    svg {
+      margin-right: 10px;
+    }
+
+    p {
+      margin: 0;
+    }
+  }
+  
+
+  .social_icons_contact {
+    border-top: 1px solid #f3bb39;
+
+    .social_contact {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .social_item {
+        padding: 20px;
+
+        svg path {
+          transition: all .3s;
+        }
+      }
+
+      .social_item svg path:hover {
+        fill: #ffb303a9;
+      }
+    }
+  }
+}
+
+.send_mail_form {
+
+  .form-control {
+    border: 1px solid #212529;
+    resize: none;
+  }
+
+  .form-control:focus {
+    border-color: #f3bb39;
+    border: 1px solid #f3bb39;
+    box-shadow: 0 0 0 0.2rem rgba(192, 149, 48, .2);
+  }
+}
+
+.title_text {
+  font-size: 18px;
+}

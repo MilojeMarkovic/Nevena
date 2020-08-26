@@ -79,4 +79,19 @@
 
 h2 {
   font-size: 48px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #f3bb39;
+}
+
+.who_have_we_worked_with {
+
+  .image_wrap {
+    
+    text-align: center;
+
+    .images {
+      width: 180px;
+      height: 100%;
+    }
+  }
 }

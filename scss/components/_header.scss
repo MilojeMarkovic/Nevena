@@ -6,6 +6,11 @@
   .nav-link {
     color: #f3bb39 !important;
     font-size: 18px;
+    transition: all .3s;
+  }
+
+  .nav-link:hover {
+    color: #ffb303a9 !important;
   }
 }
 
