@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,500;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap');
 
+label {
+  color: #fff;
+}
+
 h1, h2, h3, h4 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
@@ -24,7 +28,7 @@ p, a, li {
 }
 
 .btn-yellow:hover {
-  background-color: #f3bb39;
+  background-color: #ffb303a9;
   color: #fff;
 }
 
@@ -38,14 +42,17 @@ p, a, li {
   right: 0;
   top: 50%;
   transform: translateY(-50%);
+  z-index: 9999;
 
   ul {
     list-style-type: none;
   
     li {
       margin-bottom: 20px;
-      background-color: #212529;
+      // background-color: #2b2c2c;
+      background-color: #fff;
       padding: 10px;
+      transition: all .3s;
 
       svg path {
         transition: all .3s;
@@ -55,5 +62,173 @@ p, a, li {
         fill: #ffb303a9;
       }
     }
+
+    li:hover {
+      background-color: #f3bb39;
+
+      svg path {
+        fill: #fff;
+      }
+    }
   }
+}
+
+body {
+  background-color: #212121;
+}
+
+.bg-dark {
+  background-color: #212121 !important;
+}
+
+.color_gold {
+  color: #f3bb39;
+}
+.color_white {
+  color: #fff;
+}
+
+// Title text typing effect //
+
+.css-typing h1 {
+  border-right: .15em solid #f3bb39;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.css-typing h1:nth-child(1) {
+  width: 16em;
+  -webkit-animation: type 3s steps(40, end), blink .5s step-end infinite alternate;
+  animation: type 3s steps(40, end), blink .5s step-end infinite alternate;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.css-typing h1:nth-child(2) {
+  width: 13em;
+  opacity: 0;
+  -webkit-animation: type2 3s steps(40, end), blink .5s step-end infinite alternate;
+  animation: type2 3s steps(40, end), blink .5s step-end infinite alternate;
+  -webkit-animation-delay: 3s;
+  animation-delay: 3s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+@keyframes type {
+  0% {
+    width: 0;
+  }
+  99.9% {
+    border-right: .15em solid #f3bb39;
+  }
+  100% {
+    border: none;
+  }
+}
+
+@-webkit-keyframes type {
+  0% {
+    width: 0;
+  }
+  99.9% {
+    border-right: .15em solid #f3bb39;
+  }
+  100% {
+    border: none;
+  }
+}
+
+@keyframes type2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: .15em solid #f3bb39;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@-webkit-keyframes type2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: .15em solid #f3bb39;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@keyframes type3 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+@-webkit-keyframes blink {
+  50% {
+    border-color: tranparent;
+  }
+}
+
+// Comment text slide //
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #f3bb39;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #ffb303a9;
+}
+
+.mySlides {display: none;}
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 6.5s;
+  animation-name: fade;
+  animation-duration: 6.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: 1} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: 1} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
 }

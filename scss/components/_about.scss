@@ -1,6 +1,4 @@
 .about_section {
-  height: 100vh;
-
   &__profile_picture {
     background-image: url("../assets/images/profile.jpg");
     background-position: center;
@@ -21,8 +19,8 @@
   margin: 100px 0;
 
   .cards {
-    border: 1px solid #212529;
-    background-color: #212529;
+    border: 1px solid #2b2c2c;
+    background-color: #2b2c2c;
     color: #f3bb39;
     text-align: left;
     height: 350px;
@@ -34,7 +32,7 @@
     .cards_wrap {
       background-position: center;
       background-size: cover;
-      height: 150px;
+      height: 190px;
       width: 100%;
       margin-bottom: 20px;
     }
@@ -46,13 +44,13 @@
       background-image: url("../assets/about_us/small-2.jpg");
     }
     &__card_image_3 {
-      background-image: url("../assets/about_us/small-3.jpeg");
+      background-image: url("../assets/about_us/small-3.jpg");
     }
     &__card_image_4 {
       background-image: url("../assets/about_us/small-4.jpg");
     }
     &__card_image_5 {
-      background-image: url("../assets/about_us/small-5.png");
+      background-image: url("../assets/about_us/small-5.jpg");
     }
     &__card_image_6 {
       background-image: url("../assets/about_us/small-6.jpg");
@@ -64,7 +62,7 @@
       background-image: url("../assets/about_us/small-7.jpg");
     }
     &__card_image_9 {
-      background-image: url("../assets/about_us/small-7.jpg");
+      background-image: url("../assets/about_us/small-9.jpg");
     }
 
     p {
@@ -80,7 +78,8 @@
 h2 {
   font-size: 48px;
   padding-bottom: 30px;
-  border-bottom: 1px solid #f3bb39;
+  color: #ffffff;
+  border-bottom: 3px solid #f3bb39;
 }
 
 .who_have_we_worked_with {

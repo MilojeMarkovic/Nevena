@@ -1,5 +1,5 @@
 .custom_navbar {
-
+  border-bottom: 1px solid #f3bb39;
   padding: .5rem 3rem !important;
   height: 70px;
   
@@ -15,7 +15,8 @@
 }
 
 .header_background {
-  background-image: url("../assets/images/2.jpg");
+  // background-image: url("../assets/images/2.jpg");
+  background-color: #212121;
   background-position: center;
   background-size: cover;
   height: 100vh;
@@ -25,4 +26,63 @@
   &__title {
     color: #fff;
   }
+}
+
+.open_sidebar {
+  display: none;
+  margin-left: auto;
+
+  &__form {
+    list-style-type: none;
+    margin: 0;
+  }
+  &__item {
+    height: 2px; 
+    width: 30px; 
+    background-color: #f3bb39; 
+    margin-bottom: 5px
+  }
+
+  @media(max-width: 991px) {
+    display: block;
+  }
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 99999;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #f3bb39;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #ffb303a9;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
 }
