@@ -10,6 +10,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
+      flex-wrap: wrap;
 
       .social_item {
         padding: 20px;
@@ -32,12 +33,21 @@
       justify-content: space-evenly;
       align-items: center;
 
+      li {
+        margin-bottom: 10px;
+      }
+      
       li a {
         color: #f3bb39;
       }
-
+      
       li a:hover {
         text-decoration-color: #f3bb39;
+      }
+
+      @media(max-width: 510px) {
+        display: block;
+        text-align: center;
       }
     }
   }
