@@ -18,6 +18,9 @@
   width: 100%; }
   .header_background__title {
     color: #fff; }
+  @media (max-width: 767px) {
+    .header_background {
+      height: 100%; } }
 
 .open_sidebar {
   display: none;
@@ -86,7 +89,7 @@
         margin-bottom: 30px; } }
   @media (max-width: 767px) {
     .landing_page {
-      margin-top: 50px; } }
+      margin-top: 10px; } }
 
 .simple_footer {
   background-color: #2b2c2c;
