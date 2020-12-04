@@ -79,6 +79,14 @@
     width: 100%;
     background-position: center;
     background-size: cover; }
+    @media (max-width: 767px) {
+      .landing_page__bckg_image {
+        height: 430px;
+        background-position: top;
+        margin-bottom: 30px; } }
+  @media (max-width: 767px) {
+    .landing_page {
+      margin-top: 50px; } }
 
 .simple_footer {
   background-color: #2b2c2c;

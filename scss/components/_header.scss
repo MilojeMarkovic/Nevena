@@ -100,5 +100,15 @@
     width: 100%;
     background-position: center;
     background-size: cover;
+
+    @media(max-width: 767px) {
+      height: 430px;
+      background-position: top;
+      margin-bottom: 30px;
+    }
+  }
+
+  @media(max-width: 767px) {
+    margin-top: 50px;
   }
 }
