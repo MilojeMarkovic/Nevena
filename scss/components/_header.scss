@@ -88,3 +88,17 @@
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
+
+
+.landing_page {
+
+  padding-top: 70px;
+
+  &__bckg_image {
+    background-image: url('../assets/images/main_bckg.jpg');
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+  }
+}
