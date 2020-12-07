@@ -75,7 +75,27 @@
     font-size: 18px; } }
 
 .landing_page {
-  padding-top: 70px; }
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-rows: repeat(9, 1fr);
+  height: 100vh;
+  padding-top: 70px;
+  max-width: 1400px; }
+  .landing_page__grid_one {
+    grid-column: 1 / 3;
+    grid-row: 1 / 4; }
+  .landing_page__grid_two {
+    grid-column: 3 / 6;
+    grid-row: 1 / 3; }
+  .landing_page__grid_three {
+    grid-column: 1 / 3;
+    grid-row: 4 / 6;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .landing_page__grid_four {
+    grid-column: 3 / 6;
+    grid-row: 4 / 6; }
   .landing_page__bckg_image {
     background-image: url("../assets/images/main_bckg.jpg");
     height: 100%;
