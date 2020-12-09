@@ -214,6 +214,15 @@ h2 {
     width: 180px;
     height: 100%; }
 
+@font-face {
+  font-family: 'Grapple';
+  src: url("../../assets/font/grapple.ttf") format("truetype"); }
+
+.flex_space {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
 label {
   color: #fff; }
 
@@ -240,6 +249,9 @@ p, a, li {
 .btn-yellow:hover {
   background-color: #ffb303a9;
   color: #fff; }
+
+.grapple_font {
+  font-family: 'Grapple', sans-serif; }
 
 .socital_icons_aside {
   position: fixed;

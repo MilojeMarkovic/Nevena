@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,500;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap');
 
+@font-face {
+  font-family: 'Grapple';
+  src: url("../../assets/font/grapple.ttf") format("truetype");
+}
+
+.flex_space {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 label {
   color: #fff;
 }
@@ -36,6 +47,9 @@ p, a, li {
 // font-family: 'Roboto', sans-serif;
 // font-family: 'Ubuntu', sans-serif;
 
+.grapple_font {
+  font-family: 'Grapple', sans-serif;
+}
 
 .socital_icons_aside {
   position: fixed;
