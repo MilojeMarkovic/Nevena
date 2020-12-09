@@ -133,7 +133,7 @@
       margin: 0 50px; } }
   @media (max-width: 767px) {
     .landing_page {
-      margin-top: 10px; } }
+      margin: 10px 10px 0 10px; } }
 
 .simple_footer {
   background-color: #2b2c2c;
@@ -386,6 +386,10 @@ body {
 
 .title_text {
   font-size: 18px; }
+
+@media (max-width: 767px) {
+  .send_btn {
+    max-width: 100% !important; } }
 
 .education_section {
   margin-bottom: 100px; }

@@ -58,3 +58,9 @@
 .title_text {
   font-size: 18px;
 }
+
+.send_btn {
+  @media(max-width: 767px) {
+    max-width: 100% !important;
+  }
+}
