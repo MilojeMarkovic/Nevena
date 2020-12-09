@@ -10,6 +10,12 @@
   .custom_navbar .nav-link:hover {
     color: #ffb303a9 !important; }
 
+.nav_title {
+  display: none; }
+  @media (max-width: 991px) {
+    .nav_title {
+      display: block; } }
+
 .header_background {
   background-color: #212121;
   background-position: center;
@@ -88,23 +94,43 @@
   .landing_page__grid_two {
     grid-column: 5 / 10;
     grid-row: 2 / 4; }
+    @media (max-width: 988px) {
+      .landing_page__grid_two {
+        grid-column: 1 / 10;
+        grid-row: 2 / 3; } }
   .landing_page__grid_three {
     grid-column: 1 / 5;
     grid-row: 8 / 9; }
+    @media (max-width: 988px) {
+      .landing_page__grid_three {
+        grid-column: 1 / 10;
+        grid-row: 3 / 4; } }
   .landing_page__grid_four {
     grid-column: 5 / 10;
     grid-row: 4 / 9; }
+    @media (max-width: 988px) {
+      .landing_page__grid_four {
+        grid-column: 1 / 10; } }
   .landing_page__bckg_image {
     background-image: url("../assets/images/main_bckg.jpg");
     height: 100%;
     width: 100%;
     background-position: center;
     background-size: cover; }
+    @media (max-width: 988px) {
+      .landing_page__bckg_image {
+        display: none; } }
+    @media (max-height: 882px) {
+      .landing_page__bckg_image {
+        background-position: top; } }
     @media (max-width: 767px) {
       .landing_page__bckg_image {
         height: 430px;
         background-position: top;
         margin-bottom: 30px; } }
+  @media (max-width: 1600px) {
+    .landing_page {
+      margin: 0 50px; } }
   @media (max-width: 767px) {
     .landing_page {
       margin-top: 10px; } }
@@ -288,18 +314,14 @@ body {
   color: #fff; }
 
 /* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #ffb303a9;
-  border-radius: 50%;
-  display: inline-block;
+.slide_btn {
+  background-color: #f3bb39;
+  padding: 5px 10px;
+  border: 1px solid #f3bb39;
   transition: background-color 0.6s ease; }
 
 .active {
-  background-color: #f3bb39; }
+  background-color: #ffb303a9; }
 
 .mySlides {
   display: none; }
