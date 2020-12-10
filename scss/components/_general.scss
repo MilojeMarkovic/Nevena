@@ -2,7 +2,9 @@
 
 @font-face {
   font-family: 'Grapple';
-  src: url('./assets/font/grapple.ttf') format("truetype");
+  font-style: normal;
+  font-weight: normal;
+  src: local('Grapple'), url('../../assets/font/grapple.woff') format('woff');
 }
 
 .flex_space {
@@ -35,7 +37,7 @@ p, a, li {
   width: 100%;
   height: 50px;
   font-size: 20px;
-  transition: all .3s;
+  transition: all .2s;
 }
 
 .btn-yellow:hover {
