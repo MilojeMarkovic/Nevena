@@ -1,7 +1,7 @@
 .contact_box {
   padding: 30px 20px;
   background-color: #2b2c2c;
-  color: #f3bb39;
+  color: #ffd700;
 
   .direct_contact {
     display: flex;
@@ -19,7 +19,7 @@
   
 
   .social_icons_contact {
-    border-top: 1px solid #f3bb39;
+    border-top: 1px solid #ffd700;
 
     .social_contact {
       display: flex;
@@ -49,8 +49,8 @@
   }
 
   .form-control:focus {
-    border-color: #f3bb39;
-    border: 1px solid #f3bb39;
+    border-color: #ffd700;
+    border: 1px solid #ffd700;
     box-shadow: 0 0 0 0.2rem rgba(192, 149, 48, .2);
   }
 }

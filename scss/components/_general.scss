@@ -35,7 +35,7 @@ p, a, li {
 
 .btn-yellow {
   color: #fff;
-  background-color: #f3bb39;
+  background-color: #ffd700;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   outline: none;
@@ -82,7 +82,7 @@ p, a, li {
     }
 
     li:hover {
-      background-color: #f3bb39;
+      background-color: #ffd700;
 
       svg path {
         fill: #fff;
@@ -100,7 +100,7 @@ body {
 }
 
 .color_gold {
-  color: #f3bb39;
+  color: #ffd700;
 }
 .color_white {
   color: #fff;
@@ -109,9 +109,9 @@ body {
 // Comment text slide //
 /* The dots/bullets/indicators */
 .slide_btn {
-  background-color: #f3bb39;
+  background-color: #ffd700;
   padding: 5px 10px;
-  border: 1px solid #f3bb39;
+  border: 1px solid #ffd700;
   transition: background-color 0.6s ease;
 }
 

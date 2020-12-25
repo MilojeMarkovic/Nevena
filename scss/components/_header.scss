@@ -1,16 +1,20 @@
 .custom_navbar {
-  border-bottom: 1px solid #f3bb39;
+  border-bottom: 1px solid #ffd700;
   padding: .5rem 3rem !important;
   height: 70px;
   
   .nav-link {
-    color: #f3bb39 !important;
+    color: #ffd700 !important;
     font-size: 18px;
     transition: all .3s;
   }
 
   .nav-link:hover {
     color: #ffb303a9 !important;
+  }
+
+  @media(max-width: 991px) {
+    padding: .5rem 1rem !important;
   }
 }
 
@@ -51,7 +55,7 @@
   &__item {
     height: 2px; 
     width: 30px; 
-    background-color: #f3bb39; 
+    background-color: #ffd700; 
     margin-bottom: 5px
   }
 
@@ -77,7 +81,7 @@
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
-  color: #f3bb39;
+  color: #ffd700;
   display: block;
   transition: 0.3s;
 }
