@@ -88,7 +88,7 @@
   grid-template-columns: repeat(9, 1fr);
   grid-template-rows: repeat(9, 1fr);
   height: 100vh;
-  padding-top: 70px;
+  padding-top: 90px;
   max-width: 1600px;
   width: 100%; }
   .landing_page__grid_one {
